@@ -277,3 +277,13 @@ li {
   font-family: "Merriweather Sans";
   color: #837e9f;
 }
+span {
+  text-align: center;
+  padding-bottom: 2em;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 200;
+  font-family: "Merriweather Sans";
+  color: #837e9f;
+  display: block;
+}
