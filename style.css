@@ -35,7 +35,6 @@ body {
   background: #302f3d;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
-
   height: 250px;
   gap: 1em;
 }
@@ -286,4 +285,108 @@ span {
   font-family: "Merriweather Sans";
   color: #837e9f;
   display: block;
+}
+
+@media (max-width: 1024px) {
+  .all {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .column-one {
+    margin-top: 1em;
+    max-width: 380px;
+    width: 90%;
+    height: auto;
+  }
+  .column-two {
+    width: 80%;
+    max-width: 380px;
+    height: auto;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects-container {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 14em;
+  }
+  .resume {
+    margin-bottom: 1.5em;
+    border-radius: 30px;
+    background-color: #cb92b1;
+  }
+  .resume > a {
+    color: #22212c;
+  }
+  .perfil > img {
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Merriweather Sans";
+    color: #837e9f;
+  }
+}
+@media (max-width: 720px) {
+  .all {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .column-one {
+    margin-top: 1em;
+    max-width: 380px;
+    width: 90%;
+    height: auto;
+  }
+  .column-two {
+    width: 80%;
+    max-width: 380px;
+    height: auto;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projects-container {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 14em;
+  }
+  .resume {
+    margin-bottom: 1.5em;
+    border-radius: 30px;
+    background-color: #cb92b1;
+  }
+  .resume > a {
+    color: #22212c;
+  }
+  .perfil > img {
+    margin-top: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: "Merriweather Sans";
+    color: #837e9f;
+  }
+}
+@media (max-width: 1220px) {
+  .column-two {
+    margin: 0 0 0 3em;
+  }
 }
